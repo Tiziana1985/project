@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url(file:///D:/Atom/esercizio/lim/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position:relative;
+}
+
+.home.page{
+  width: 1000px;
+  height: 650px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 50px;
+}
+
+header{
+  text-align: center;
+  height: 180px;
+}
+
+header>#Logo{
+  width: 200px;
+  margin-top: 50px;
+}
+
+header>.title{
+  color: #2ae72a;
+  font-size: 30px;
+}
+
+nav>.navigation{
+  width: 80%;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  background-color: #2ae72a;
+  text-align: center;
+}
+
+main>.row{
+  color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+main span{
+  font-size: 25px;
+}
+
+.w3{
+  height: 24px;
+  border-radius: 5px;
+}
+
+.w3#orange{
+  width: 30%;
+  background-color: #c99539;
+
+}
+
+.w3#green{
+  background-color: #19ae19;
+  width:50%;
+}
+
+.w3#red{
+  background-color: #dc3a3ad9;
+  width: 15%;
+}
